@@ -1,0 +1,33 @@
+{
+  "name": "design-consolidation",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@spscommerce/sps-styles": "^1.2.0",
+    "@spscommerce/ui-react": "^4.0.4",
+    "@spscommerce/ui-react-scripts": "2.4.5",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1"
+  },
+  "scripts": {
+    "start": "HTTPS=true PORT=8100 REACT_APP_OPEN_TO_URL=https://dev.commerce.spscommerce.com/localhost react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "development": [
+      "last 2 chrome versions",
+      "last 2 firefox versions",
+      "last 2 edge versions"
+    ],
+    "production": [
+      ">0.25%",
+      "not op_mini all",
+      "ie 11"
+    ]
+  },
+  "homepage": "."
+}
