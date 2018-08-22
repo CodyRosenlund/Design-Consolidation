@@ -10,9 +10,8 @@ import {
   CommercePlatformUrl,
   ScrollToTop
 } from "@spscommerce/ui-react";
-import HomePage from "./pages/HomePage";
-import AboutPage from "./pages/AboutPage";
-import Nav from "./Nav";
+import HomePage from "../pages/HomePage";
+import Nav from "../Nav";
 import "./App.css";
 
 class App extends Component {
@@ -38,7 +37,6 @@ class App extends Component {
                             render={() => <Redirect to={initialRoute} />}
                           />
                           <Route exact path="/home" component={HomePage} />
-                          <Route exact path="/about" component={AboutPage} />
                         </Switch>
                       </Fragment>
                     </ScrollToTop>

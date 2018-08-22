@@ -55,9 +55,6 @@ export default class Nav extends Component {
                 <SpsNavLink navLinkStyle={navLinkStyle} to="/home">
                   Home
                 </SpsNavLink>
-                <SpsNavLink navLinkStyle={navLinkStyle} to="/about">
-                  About
-                </SpsNavLink>
               </SpsNavBarItems>
             );
           }}

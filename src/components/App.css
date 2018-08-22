@@ -1,0 +1,7 @@
+@import '../../node_modules/@spscommerce/sps-styles/dist/index.css';
+
+
+.sps-table--remove {
+    width: 5%
+
+}

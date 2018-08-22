@@ -6,6 +6,7 @@
     "@spscommerce/sps-styles": "^1.2.0",
     "@spscommerce/ui-react": "^4.0.4",
     "@spscommerce/ui-react-scripts": "2.4.5",
+    "axios": "^0.18.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router": "^4.3.1",
