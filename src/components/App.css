@@ -1,7 +1,37 @@
 @import '../../node_modules/@spscommerce/sps-styles/dist/index.css';
 
-
 .sps-table--remove {
     width: 5%
 
+}
+
+.modal-button {
+    margin: 0.3125rem;
+}
+
+.stats-icon {
+    font-size: 5rem;
+}
+
+.stats-number {
+    font-size: 5rem;
+    padding-left: 0.3125rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+.h5-line {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+    color: gray;
+}
+
+.span-line {
+    background: #fff;
+    padding: 0 10px;
 }

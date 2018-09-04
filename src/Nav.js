@@ -42,8 +42,8 @@ export default class Nav extends Component {
       <Fragment>
         <SpsNavBar
           appLogo="https://cdn.dev.spsc.io/web/framework/assets/18.01.01/icons/color-lines/color-lines.svg"
-          appName="SPS APP"
-          appUrl="/home"
+          appName="Design Consolidation"
+          appUrl="/"
           items={({
             NavBarItems,
             NavBarItem,
@@ -52,9 +52,9 @@ export default class Nav extends Component {
           }) => {
             return (
               <SpsNavBarItems>
-                <SpsNavLink navLinkStyle={navLinkStyle} to="/home">
-                  Home
-                </SpsNavLink>
+                  <SpsNavLink navLinkStyle={navLinkStyle} to="/home">
+                      Home
+                  </SpsNavLink>
               </SpsNavBarItems>
             );
           }}

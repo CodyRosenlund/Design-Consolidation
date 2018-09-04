@@ -24,7 +24,7 @@ class App extends Component {
         {({ initialRoute }) => {
           return (
             <div className={`sps-page`}>
-              <div className={`sps-body sps-body--collapse-600`}>
+              <div className={`sps-body`}>
                 <Router HashRouter>
                   <CommercePlatformUrl>
                     <ScrollToTop>
@@ -36,7 +36,7 @@ class App extends Component {
                             path="/"
                             render={() => <Redirect to={initialRoute} />}
                           />
-                          <Route exact path="/home" component={HomePage} />
+                            <Route exact path="/home" component={HomePage} />
                         </Switch>
                       </Fragment>
                     </ScrollToTop>
